@@ -19,6 +19,7 @@ namespace CRUDtest.Models
         public string ContactNo { get; set; }
         public string EMailID { get; set; }
         public string SkillSets { get; set; }
+        public string Town { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ProjectTask> ProjectTasks { get; set; }
