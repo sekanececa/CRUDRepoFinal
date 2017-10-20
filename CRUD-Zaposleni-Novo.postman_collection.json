@@ -1,0 +1,258 @@
+{
+	"id": "e9f4aef7-4bf4-3100-ddbc-aa24650f78db",
+	"name": "CRUD-Zaposleni-Novo",
+	"description": "",
+	"order": [
+		"a0b1d17a-fa6f-7941-8545-99baf2ac82b9",
+		"e89d7510-03b4-0e21-7a19-f7979a5a6798",
+		"049c01fa-311f-053b-76b3-d63956de2b67",
+		"0ba2be05-fad2-8ba6-3e50-4389e33e0753",
+		"2f0b231e-5817-757d-c4ac-d92628903a54"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1507150806527,
+	"owner": "2550205",
+	"public": false,
+	"requests": [
+		{
+			"id": "049c01fa-311f-053b-76b3-d63956de2b67",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:53808/api/ptemployees",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "DELETE",
+			"collectionId": "e9f4aef7-4bf4-3100-ddbc-aa24650f78db",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:53808/api/ptemployees",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1507150835804,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \r\n\"EmployeeID\" : \"16\",\r\n   \"EmployeeName\":\"Prvo\",\r\n   \"Designation\":\"Izmeeeena\",\r\n   \"ContactNo\":\"46\",\r\n   \"EMailID\":\"4444\",\r\n   \"SkillSets\":\"46\"\r\n\t\r\n}\r\n"
+		},
+		{
+			"id": "0ba2be05-fad2-8ba6-3e50-4389e33e0753",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:53808/api/ptemployees",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "PUT",
+			"collectionId": "e9f4aef7-4bf4-3100-ddbc-aa24650f78db",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:53808/api/ptemployees",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1507150845797,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \r\n\"EmployeeID\" : \"28\",\r\n   \"EmployeeName\":\"Prvo\",\r\n   \"Designation\":\"Izmena\",\r\n   \"ContactNo\":\"46\",\r\n   \"EMailID\":\"444444\",\r\n   \"SkillSets\":\"46\"\r\n\t\r\n}\r\n"
+		},
+		{
+			"id": "2f0b231e-5817-757d-c4ac-d92628903a54",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nemployeeID: 123\nemployeeName: Seka\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "employeeID",
+					"value": "123",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "employeeName",
+					"value": "Seka",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:53808/api/ptemployees",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "e9f4aef7-4bf4-3100-ddbc-aa24650f78db",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:53808/api/ptemployees",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1507150859028,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ \r\n  EmployeeName: \"Prvi\",\r\n  Designation: \"Prvi1\",\r\n  ContactNo: \"456\",\r\n  EMailID: \"456\",\r\n  SkillSets: \"456\"\r\n}"
+		},
+		{
+			"id": "a0b1d17a-fa6f-7941-8545-99baf2ac82b9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:53808/api/ptemployees",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "e9f4aef7-4bf4-3100-ddbc-aa24650f78db",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:53808/api/ptemployees",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1507150809864,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \r\n\"EmployeeID\" : \"999\",\r\n   \"EmployeeName\":\"Prvi\",\r\n   \"Designation\":\"Prvi1\",\r\n   \"ContactNo\":\"456\",\r\n   \"EMailID\":\"456\",\r\n   \"SkillSets\":\"456\"\r\n\t\r\n}\r\n"
+		},
+		{
+			"id": "e89d7510-03b4-0e21-7a19-f7979a5a6798",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:53808/api/ptemployees",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": "",
+			"method": "DELETE",
+			"collectionId": "e9f4aef7-4bf4-3100-ddbc-aa24650f78db",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:53808/api/ptemployees",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1507150823982,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{  \r\n\"EmployeeID\" : \"16\",\r\n   \"EmployeeName\":\"Prvo\",\r\n   \"Designation\":\"Izmeeeena\",\r\n   \"ContactNo\":\"46\",\r\n   \"EMailID\":\"4444\",\r\n   \"SkillSets\":\"46\"\r\n\t\r\n}\r\n"
+		}
+	]
+}

@@ -1,0 +1,142 @@
+{
+	"id": "8d699159-8efe-14e6-4326-55ce056350a4",
+	"name": "CRUD-Projecti-Novi",
+	"description": "",
+	"order": [
+		"455e8976-5642-6fbb-c765-83a62de500b5",
+		"dfbc02f3-7bdc-7f02-bfad-53d7524935a5",
+		"43fc7919-5c0c-ba27-8937-b8048347901d",
+		"94d87783-95bd-c1ee-9c59-72aa559e7264"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1507231485621,
+	"owner": "2550205",
+	"public": false,
+	"requests": [
+		{
+			"id": "43fc7919-5c0c-ba27-8937-b8048347901d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:53808/api/ptprojects",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "8d699159-8efe-14e6-4326-55ce056350a4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:50184/api/ptemployee",
+			"description": "PUT-Projects",
+			"descriptionFormat": "html",
+			"time": 1507231958442,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n        \"$id\": \"1\",\n        \"userStories\": [],\n        \"projectID\": 1,\n        \"projectName\": \"Izmenjen naziv\",\n        \"startDate\": null,\n        \"endDate\": null,\n        \"clientName\": \"Isti klijent\"\n    }"
+		},
+		{
+			"id": "455e8976-5642-6fbb-c765-83a62de500b5",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:53808/api/ptprojects",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8d699159-8efe-14e6-4326-55ce056350a4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:50184/api/ptemployee",
+			"description": "GET-Projects",
+			"descriptionFormat": "html",
+			"time": 1507231522621,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n      \"employeeID\": 32,\n        \"employeeName\": \"Novi\",\n        \"designation\": \"Ia\",\n        \"managerID\": null,\n        \"contactNo\": \"46\",\n        \"eMailID\": \"111444\",\n        \"skillSets\": \"46\"\n    }"
+		},
+		{
+			"id": "94d87783-95bd-c1ee-9c59-72aa559e7264",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:53808/api/ptprojects",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "8d699159-8efe-14e6-4326-55ce056350a4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:50184/api/ptemployee",
+			"description": "DELETE-Projects",
+			"descriptionFormat": "html",
+			"time": 1507232016003,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": " {\n        \"$id\": \"2\",\n        \"userStories\": [],\n        \"projectID\": 2,\n        \"projectName\": null,\n        \"startDate\": null,\n        \"endDate\": null,\n        \"clientName\": null\n    }"
+		},
+		{
+			"id": "dfbc02f3-7bdc-7f02-bfad-53d7524935a5",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:53808/api/ptprojects",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8d699159-8efe-14e6-4326-55ce056350a4",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:50184/api/ptemployee",
+			"description": "POST-Projects",
+			"descriptionFormat": "html",
+			"time": 1507231848611,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": " {\n        \n       \"userStories\": [],\n        \"projectID\": 123,\n        \"projectName\": \"Novi\",\n        \"startDate\": null,\n        \"endDate\": null,\n        \"clientName\": null\n    }"
+		}
+	]
+}
