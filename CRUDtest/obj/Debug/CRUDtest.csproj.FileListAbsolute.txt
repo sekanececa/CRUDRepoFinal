@@ -474,8 +474,9 @@ C:\Users\mclain\Documents\Visual Studio 2017\Projects\ProjectRepos\CRUDRepoFinal
 C:\Users\mclain\Documents\Visual Studio 2017\Projects\ProjectRepos\CRUDRepoFinal\CRUDtest\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\mclain\Documents\Visual Studio 2017\Projects\ProjectRepos\CRUDRepoFinal\CRUDtest\bin\System.Web.Http.Owin.xml
 C:\Users\mclain\Documents\Visual Studio 2017\Projects\ProjectRepos\CRUDRepoFinal\CRUDtest\obj\Debug\CRUDtest.csprojResolveAssemblyReference.cache
-C:\Users\mclain\Documents\Visual Studio 2017\Projects\ProjectRepos\CRUDRepoFinal\CRUDtest\obj\Debug\CRUDtest.Migrations.Initial.resources
 C:\Users\mclain\Documents\Visual Studio 2017\Projects\ProjectRepos\CRUDRepoFinal\CRUDtest\obj\Debug\CRUDtest.Properties.Resources.resources
 C:\Users\mclain\Documents\Visual Studio 2017\Projects\ProjectRepos\CRUDRepoFinal\CRUDtest\obj\Debug\CRUDtest.csproj.GenerateResource.Cache
 C:\Users\mclain\Documents\Visual Studio 2017\Projects\ProjectRepos\CRUDRepoFinal\CRUDtest\obj\Debug\CRUDtest.dll
 C:\Users\mclain\Documents\Visual Studio 2017\Projects\ProjectRepos\CRUDRepoFinal\CRUDtest\obj\Debug\CRUDtest.pdb
+C:\Users\mclain\Documents\Visual Studio 2017\Projects\ProjectRepos\CRUDRepoFinal\CRUDtest\obj\Debug\CRUDtest.Migrations.Initial.resources
+C:\Users\mclain\Documents\Visual Studio 2017\Projects\ProjectRepos\CRUDRepoFinal\CRUDtest\obj\Debug\CRUDtest.Migrations.EmployeeLastName.resources
