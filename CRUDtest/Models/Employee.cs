@@ -26,6 +26,6 @@ namespace CRUDtest.Models
         public virtual ICollection<ProjectTask> ProjectTasks { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Employee> Employees { get; set; }
+        public virtual ICollection<Address> Adresses { get; set; }
     }
 }
