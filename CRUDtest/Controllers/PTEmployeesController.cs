@@ -36,6 +36,8 @@ namespace CRUDtest.Controllers
             return response;
         }
 
+
+        //Post method allows us to add a new employee to our employees table
         [Route("api/ptemployees")]
         public HttpResponseMessage Post(Employee e)
         {
@@ -43,6 +45,8 @@ namespace CRUDtest.Controllers
             HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, employees);
             return response;
         }
+
+
 
         [Route("api/ptemployees")]
         public HttpResponseMessage Put(Employee e)

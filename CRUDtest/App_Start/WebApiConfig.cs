@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
+using System.Web.Http.Filters;
 
 namespace CRUDtest
 {
@@ -15,7 +16,12 @@ namespace CRUDtest
             // Web API configuration and services
             // Configure Web API to use only bearer token authentication.
             config.SuppressDefaultHostAuthentication();
+
             config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
+
+            // config.Filters.Add(new IdentityBasicAuthenticationAttribute());
+
+            //https://www.infoworld.com/article/2988903/application-architecture/how-to-secure-web-api-using-authorization-filters.html
 
             // Web API routes
             config.MapHttpAttributeRoutes();
@@ -27,9 +33,14 @@ namespace CRUDtest
             );
 
             config.EnableCors();
+
+
+            //kucamod a bi smo dobili u Posamu resenja upita u Json, lakse za citanje
             var json = config.Formatters.JsonFormatter;
             json.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
             json.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+
+            //kompletno uklanja xml formatter sve podrzava u Json-u
             config.Formatters.Remove(config.Formatters.XmlFormatter);
         }
     }
