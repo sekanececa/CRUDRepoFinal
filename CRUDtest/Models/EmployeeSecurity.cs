@@ -9,10 +9,10 @@
 //    {
 //        public static bool Login(string username, string password)
 //        {
-//            using (ProjectTrackingDBEntities entities = new ProjectTrackingDBEntities())
-//            {
-
-//            }
+//            //using (ProjectTrackingDBEntities entities = new ProjectTrackingDBEntities())
+//            //{
+//            //    return entities.use
+//            //}
 //        }
 //    }
 //}

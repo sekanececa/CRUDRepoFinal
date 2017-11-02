@@ -39,6 +39,7 @@ namespace CRUDtest.Controllers
 
         //Post method allows us to add a new employee to our employees table
         [Route("api/ptemployees")]
+        [Authorize(Users ="Ivan")]
         public HttpResponseMessage Post(Employee e)
         {
             var employees = EmployeesRepository.InsertEmployee(e);

@@ -262,6 +262,14 @@
     <Compile Include="Migrations\201710231449390_Address.Designer.cs">
       <DependentUpon>201710231449390_Address.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710301548374_Users.cs" />
+    <Compile Include="Migrations\201710301548374_Users.Designer.cs">
+      <DependentUpon>201710301548374_Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711011500393_Job.cs" />
+    <Compile Include="Migrations\201711011500393_Job.Designer.cs">
+      <DependentUpon>201711011500393_Job.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -387,6 +395,12 @@
     <EmbeddedResource Include="Migrations\201710231449390_Address.resx">
       <DependentUpon>201710231449390_Address.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710301548374_Users.resx">
+      <DependentUpon>201710301548374_Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711011500393_Job.resx">
+      <DependentUpon>201711011500393_Job.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -394,6 +408,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
