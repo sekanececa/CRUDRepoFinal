@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDtest", "CRUDtest\CRUDtest.csproj", "{BB2F6F5A-3E95-410F-AE9F-61C323D075D2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92C0BC26-B4C6-44C3-A6D2-361F06424F7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSAuthebtication", "AngularJSAuthebtication\AngularJSAuthebtication.csproj", "{6788D3E5-599D-4FC1-99D8-5D8843ED22F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +17,10 @@ Global
 		{BB2F6F5A-3E95-410F-AE9F-61C323D075D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB2F6F5A-3E95-410F-AE9F-61C323D075D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB2F6F5A-3E95-410F-AE9F-61C323D075D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6788D3E5-599D-4FC1-99D8-5D8843ED22F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6788D3E5-599D-4FC1-99D8-5D8843ED22F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6788D3E5-599D-4FC1-99D8-5D8843ED22F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6788D3E5-599D-4FC1-99D8-5D8843ED22F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
