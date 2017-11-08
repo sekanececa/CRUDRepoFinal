@@ -6,6 +6,7 @@ using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
 using System.Web.Http.Filters;
+using System.Net.Http.Formatting;
 
 namespace CRUDtest
 {
@@ -35,13 +36,18 @@ namespace CRUDtest
             config.EnableCors();
 
 
-            //kucamod a bi smo dobili u Posamu resenja upita u Json, lakse za citanje
+            //kucamo da bi smo dobili u Posamu resenja upita u Json, lakse za citanje
             var json = config.Formatters.JsonFormatter;
             json.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
             json.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
 
             //kompletno uklanja xml formatter sve podrzava u Json-u
             config.Formatters.Remove(config.Formatters.XmlFormatter);
+
+
+            //ubaceno 08.11.2017.
+            var jsonFormatter = config.Formatters.OfType<JsonMediaTypeFormatter>().First();
+            jsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
         }
     }
 }

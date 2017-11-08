@@ -10,7 +10,10 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using CRUDtest.Providers;
 using CRUDtest.Models;
+using System.Web.Http;
 
+////dodato 08.11.2017.
+[assembly:OwinStartup(typeof(CRUDtest.Startup))]
 namespace CRUDtest
 {
     public partial class Startup
@@ -64,6 +67,13 @@ namespace CRUDtest
             //    ClientId = "",
             //    ClientSecret = ""
             //});
+            //
+
+
+            //dodato 08.11.2017.
+            HttpConfiguration config = new HttpConfiguration();
+            WebApiConfig.Register(config);
+            app.UseWebApi(config);
         }
     }
 }
