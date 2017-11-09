@@ -8,7 +8,7 @@ using CRUDtest.Models;
 using System.Threading.Tasks;
 
 
-namespace CRUDtest
+namespace CRUDtest.Models
 {
     public class AuthRepository : IDisposable
     {

@@ -12,6 +12,7 @@ namespace CRUDtest.Controllers
     {
         // GET api/ptemployees
         [Route("api/ptemployees")]
+        [Authorize]
         public HttpResponseMessage Get()
         {
             var employees = EmployeesRepository.GetAllEmployees();
