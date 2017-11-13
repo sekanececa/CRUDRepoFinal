@@ -20,16 +20,24 @@ namespace CRUDtest.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+
+        //ApplicationDbContext Context;
+        //public UserAccountController()
+        //{
+        //    Context = new ApplicationDbContext();
+        //    return;
+        //}
         //    public ApplicationDbContext()
         //        : base("DefaultConnection", throwIfV1Schema: false)
         //    {
         //    }
 
-        //    public static ApplicationDbContext Create()
-        //    {
-        //        return new ApplicationDbContext();
-        //    }
-        
+       // 13.11.2017.
+        public static ApplicationDbContext Create()
+        {
+            return new ApplicationDbContext();
+        }
+
+        //}
     }
 }
-    
