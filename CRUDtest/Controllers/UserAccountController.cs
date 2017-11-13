@@ -105,12 +105,14 @@ namespace CRUDtest.Controllers
             }
             return false;
         }
-       
 
-        //ApplicationDbContext context;
-        //public UserAccountController()
+        // GET: /Account/Register   
+        //[System.Web.Http.AllowAnonymous]
+        //public IHttpActionResult Register()
         //{
-        //    context = new ApplicationDbContext();
+        //    ViewBag.Name = new SelectList(_repo.Roles.Where(u => !u.Name.Contains("Admin"))
+        //                                    .ToList(), "Name", "Name");
+        //    return ;
         //}
         //public ActionResult Index()
         //{

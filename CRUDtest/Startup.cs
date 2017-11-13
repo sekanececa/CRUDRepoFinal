@@ -8,6 +8,8 @@ using CRUDtest.Providers;
 using CRUDtest.Models;
 using Microsoft.AspNet.Identity;// za RoleManager
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Web.Http;
+
 
 [assembly: OwinStartup(typeof(CRUDtest.Startup))]
 
@@ -17,8 +19,15 @@ namespace CRUDtest
     {
         public void Configuration(IAppBuilder app)
         {
+            HttpConfiguration config = new HttpConfiguration();
+
             ConfigureOAuth(app);
             createRolesandUsers();//10.11.2017.
+
+            WebApiConfig.Register(config);
+            app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
+            app.UseWebApi(config);
+
         }
 
         public void ConfigureOAuth(IAppBuilder app)
